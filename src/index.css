@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-card{
+    @apply flex flex-col justify-center items-center bg-white h-screen font-mono py-40
+}
+
+.showcase {
+    height: 100vh;
+    background: url(./images/Background-3.jpg) no-repeat center/cover;
+  }
+  
+  .showcase .overlay {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
+  }
